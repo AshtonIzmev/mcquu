@@ -45,7 +45,7 @@ A secure web-based quiz application designed for conducting assessments with ant
   - Bootstrap
   - Toastify for notifications
   - html2canvas for question rendering
-  - Supabase client (optional)
+  - Supabase client (optional, used as a backup for student who did not send their results)
 
 ## Setup
 
@@ -63,7 +63,7 @@ A secure web-based quiz application designed for conducting assessments with ant
      "answer_B": string,
      "answer_C": string,
      "answer_D": string,
-     "correct_answer": "A"|"B"|"C"|"D"
+     "correct_answer": "A"|"B"|"C"|"D" //this field should not be present in data/qcm.json but is needed in the the notebook directory to evaluate the students
    }
    ```
 
