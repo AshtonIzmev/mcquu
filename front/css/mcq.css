@@ -1,0 +1,114 @@
+/* Define CSS variables for colors */
+:root {
+    --border-color: #ccc;
+    --hover-bg-color: #f0f0f0;
+    --active-bg-color: #0d6efd;
+    --answered-bg-color: #198754;
+    --text-color-white: white;
+}
+
+/* Question Container Styles */
+.question-container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+/* Options Styles */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.option {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: var(--hover-bg-color);
+}
+
+.optionsPlain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* User Form Styles */
+.user-form {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.user-form button {
+    cursor: pointer;
+}
+
+.user-form.disabled input, 
+.user-form.disabled button {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Question List Styles */
+.question-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.question-square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.question-square:hover {
+    background-color: #e9ecef;
+}
+
+.question-square.active {
+    background-color: var(--active-bg-color);
+    color: var(--text-color-white);
+}
+
+.question-square.answered {
+    background-color: var(--answered-bg-color);
+    color: var(--text-color-white);
+}
+
+/* Button Styles */
+button.btn {
+    cursor: pointer !important;
+}
+
+.user-form input,
+.user-form button {
+    margin: 5px;
+    padding: 4px;
+}
+
+#imageSnapshot {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}

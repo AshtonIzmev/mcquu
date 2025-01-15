@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <script src="js/lib/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/mcq.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/toastify.min.css">
+
+</head>
+<body>
+    <div class="user-form" id="userForm">
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <button class="btn btn-primary" onclick="submitUserInfo()">Start Quiz</button>
+        <button class="btn btn-secondary" onclick="clearProgress()">Clear</button>
+        <button class="btn btn-info" onclick="downloadProgress()">Download</button>
+    </div>
+
+    <div class="question-container" id="quiz" style="display: none;"></div>
+
+    <div class="progress-container">
+        <div class="progress" style="height: 20px;">
+            <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" 
+                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+        </div>
+    </div>
+    <div id="progress"></div>
+    <div id="question-list" class="question-list"></div>
+
+    <script src="js/lib/html2canvas.min.js"></script>
+    <script src="js/lib/supabase-js@2.js"></script>
+    <script type="text/javascript" src="js/lib/toastify-js.js"></script>
+    <script src="js/constants.js"></script>
+    <script type="module" src="js/mcq.js"></script>
+</body>
+</html>

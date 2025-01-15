@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "question": "Qu'est-ce qui n'est pas inclus dans l'ingénierie des données?",
+    "answer_A": "L'analyse des données pour extraire des informations",
+    "answer_B": "La gestion des bases de données relationnelles",
+    "answer_C": "Le développement de logiciels pour des applications mobiles",
+    "answer_D": "La construction et la maintenance de pipelines de données",
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "question": "Parmi ces outils, lequel est le plus adapté pour le traitement 'Extract, Transform, Load' (ETL) à grande échelle?",
+    "answer_A": "Apache Spark",
+    "answer_B": "SQL",
+    "answer_C": "Hadoop",
+    "answer_D": "Python",
+    "correct_answer": "A"
+  },
+  {
+    "id": 3,
+    "question": "Quelle est l'une des principales différences entre les données de type SQL et NoSQL?",
+    "answer_A": "SQL est basé sur des colonnes, NoSQL est basé sur des lignes",
+    "answer_B": "SQL utilise des tablettes, NoSQL utilise des cellules",
+    "answer_C": "SQL est pour les données structurées, NoSQL pour les données non nécessairement structurées",
+    "answer_D": "SQL est multiparallel, NoSQL est unithread",
+    "correct_answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "Qu'entend-on par le terme 'Data Lake'?",
+    "answer_A": "Un grand dépôt avec structure de données définie",
+    "answer_B": "Un flux de données en temps réel",
+    "answer_C": "Un stockage centralisé pour tous types de données",
+    "answer_D": "Une méthode de compression des données",
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Pourquoi la normalisation des formats de date importe-t-elle dans le nettoyage des données?",
+    "answer_A": "Pour éviter les doublons de colonnes",
+    "answer_B": "Pour garantir la cohérence et éviter les erreurs de conversion",
+    "answer_C": "Pour réduire l'espace de stockage",
+    "answer_D": "Aucune des réponses",
+    "correct_answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "Quel est le principal avantage de l'utilisation des services cloud pour le stockage des données?",
+    "answer_A": "Meilleure sécurité que les solutions locales",
+    "answer_B": "Meilleur débit de transfert de données",
+    "answer_C": "Scalabilité dynamique et coût par utilisation",
+    "answer_D": "Support technique libre",
+    "correct_answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "Quelle stratégie peut être adoptée pour gérer les données manquantes dans un dataset?",
+    "answer_A": "La suppression des lignes concernées",
+    "answer_B": "L'imputation par la moyenne ou la médiane",
+    "answer_C": "Le remplacement par une valeur nulle",
+    "answer_D": "Tout les solutions ci-dessus",
+    "correct_answer": "D"
+  },
+  {
+    "id": 8,
+    "question": "Qu'est ce que le concept de Data Gravity?",
+    "answer_A": "La capacité des données volumineuses à attirer naturellement d'autres données plus petites",
+    "answer_B": "Un concept physique appliqué au stockage des données dans les centres de données",
+    "answer_C": "Une mesure de la taille des données dans un système d'information",
+    "answer_D": "Une technique de compression des données volumineuses",
+    "correct_answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Quel est un des défis impliqué par l'utilisation de 'Data Lakes'?",
+    "answer_A": "La rigidité des schémas de données",
+    "answer_B": "Le potentiel de devenir un Data Swamp",
+    "answer_C": "La faible volumétrie supportée",
+    "answer_D": "Les coûts de maintenance élevés",
+    "correct_answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "Quel est un outil couramment utilisé pour orchestrer les workflows de données?",
+    "answer_A": "Apache Hive",
+    "answer_B": "Apache Flink",
+    "answer_C": "Apache Airflow",
+    "answer_D": "Apache Kafka",
+    "correct_answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "Quel type de données est souvent utilisé pour représenter des structures de données brutes en Python?",
+    "answer_A": "Luigi",
+    "answer_B": "Numpy",
+    "answer_C": "Scikit-Learn",
+    "answer_D": "Matplotlib",
+    "correct_answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "Quel format numérique est souvent utilisé pour représenter des nombres sur un octet en Python?",
+    "answer_A": "int16",
+    "answer_B": "int32",
+    "answer_C": "int8",
+    "answer_D": "float64",
+    "correct_answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Quel format de données catégorielles est particulièrement utile pour gérer des hiérarchies dans Pandas?",
+    "answer_A": "Hierarchical Data Format (HDF)",
+    "answer_B": "Integer",
+    "answer_C": "Categorical",
+    "answer_D": "Boolean",
+    "correct_answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "Pourquoi préserver l'ordre temporel est-il important dans une série temporelle?",
+    "answer_A": "Pour optimiser le stockage",
+    "answer_B": "Pour effectuer des prédictions",
+    "answer_C": "Pour permettre les opérations basées sur des fenêtres temporelles",
+    "answer_D": "Pour convertir les données en format binaire",
+    "correct_answer": "C"
+  },
+  {
+    "id": 15,
+    "question": "Quelle propriété de la donnée catégorielle peut entraîner des problèmes d’analyse si elle est trop élevée?",
+    "answer_A": "Précision",
+    "answer_B": "Recall",
+    "answer_C": "Cardinalité",
+    "answer_D": "Temporalité",
+    "correct_answer": "C"
+  },
+  {
+    "id": 16,
+    "question": "Quel standard est généralement utilisé pour représenter les dates?",
+    "answer_A": "Datetime Standard",
+    "answer_B": "Timestamp Standard",
+    "answer_C": "ISO 8601 Standard",
+    "answer_D": "ISO 1210 Standard",
+    "correct_answer": "C"
+  },
+  {
+    "id": 17,
+    "question": "Quel défi majeur est souvent associé aux fichiers logs pour le nettoyage des données?",
+    "answer_A": "Formatage JSON incorrect",
+    "answer_B": "Abus de mémoire",
+    "answer_C": "Problèmes de format multi-lignes",
+    "answer_D": "Utilisation de code binaire",
+    "correct_answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "Quel est l'avantage principal des entrepôts de données cloud par rapport aux solutions sur site?",
+    "answer_A": "Un coût initial plus élevé",
+    "answer_B": "Un accès limité aux données",
+    "answer_C": "Une scalabilité élastique et des coûts variables",
+    "answer_D": "Un contrôle total de la sécurité des données",
+    "correct_answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Qu'est-ce qui définit principalement un 'Data Lake'?",
+    "answer_A": "Une structure de données strictement définie",
+    "answer_B": "Un stockage centralisé pour tous types de données, souvent non structurées",
+    "answer_C": "Une base de données relationnelle optimisée pour les requêtes SQL",
+    "answer_D": "Une repository de fichiers organisé par projet",
+    "correct_answer": "B"
+  },
+  {
+    "id": 20,
+    "question": "Quelle problématique un 'Data Swamp' représente-t-il?",
+    "answer_A": "Un enrichissement de données excessif",
+    "answer_B": "Une perte de données critiques",
+    "answer_C": "Un manque d'organisation rendant les données difficiles à exploiter",
+    "answer_D": "Une compatibilité universelle avec les bases de données NoSQL",
+    "correct_answer": "C"
+  },
+  {
+    "id": 21,
+    "question": "Quel service cloud est typiquement utilisé pour le stockage d’objets massifs?",
+    "answer_A": "Amazon Redshift",
+    "answer_B": "Google BigQuery",
+    "answer_C": "Amazon S3",
+    "answer_D": "Azure SQL Database",
+    "correct_answer": "C"
+  },
+  {
+    "id": 22,
+    "question": "Qu'est-ce qu'un Lakehouse essaie d'unifier?",
+    "answer_A": "Les bases de données SQL et NoSQL",
+    "answer_B": "Les data lakes et les entrepôts de données",
+    "answer_C": "Les systèmes de fichiers locaux et distants",
+    "answer_D": "Les machines virtuelles et l'infrastructure physique",
+    "correct_answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "Quels sont les avantages de l'utilisation du service cloud AWS Lambda (Serverless) ?",
+    "answer_A": "Gestion manuelle des infrastructures",
+    "answer_B": "Tarification fixe indépendamment de l'utilisation",
+    "answer_C": "Exécution sans gestion de serveur, coûts basés sur l'utilisation",
+    "answer_D": "Exécution limitée aux environnements locaux",
+    "correct_answer": "C"
+  },
+  {
+    "id": 24,
+    "question": "Quelle est une caractéristique clé d'un data warehouse en cloud par rapport à un data lake?",
+    "answer_A": "Stockage en mode non structuré",
+    "answer_B": "Conception bâtie autour de l’analyse et reporting de données structurées",
+    "answer_C": "Accessibilité réduite pour les utilisateurs finaux",
+    "answer_D": "Intégration simplifiée avec les services IoT",
+    "correct_answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "Qu'est-ce qu'on entend par schéma-on-read dans un data lake?",
+    "answer_A": "Définir la structure des données lors de leur stockage",
+    "answer_B": "Configurer manuellement les bases de données avant le transfert des données",
+    "answer_C": "Appliquer la structure des données lors de l'accès ou de l'analyse",
+    "answer_D": "Forcer l'intégrité des données avant leur entrée dans le data lake",
+    "correct_answer": "C"
+  },
+  {
+    "id": 26,
+    "question": "Quelle est l'une des fonctionnalités principales offertes par les data warehouses?",
+    "answer_A": "La capacité à stocker uniquement des donnees semi-structurées",
+    "answer_B": "La fourniture d'une infrastructure dédiée pour l'Internet des objets (IoT)",
+    "answer_C": "La performance optimisée pour les requêtes analytiques sur des données structurées",
+    "answer_D": "La gestion des workflows complexes et logiques métier en temps réel",
+    "correct_answer": "C"
+  },
+  {
+    "id": 27,
+    "question": "Quel est l'objectif principal de l'hygiène des données en ingénierie des données ?",
+    "answer_A": "Augmenter la taille des jeux de données",
+    "answer_B": "Assurer l'utilisabilité et la fiabilité des données",
+    "answer_C": "Standardiser les formats de fichier de données pour augmenter les performances",
+    "answer_D": "Réduire les coûts de stockage",
+    "correct_answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Quel est un indicateur courant de 'données sales' ?",
+    "answer_A": "Données dupliquées",
+    "answer_B": "Données avec un format uniforme",
+    "answer_C": "Données facilement accessibles",
+    "answer_D": "Données récentes",
+    "correct_answer": "A"
+  },
+  {
+    "id": 29,
+    "question": "Quels problèmes les 'données incohérentes' peuvent-elles causer?",
+    "answer_A": "Ralentir les processus ETL",
+    "answer_B": "Assurer l'exactitude des prévisions",
+    "answer_C": "Conduire à des décisions basées sur de fausses hypothèses",
+    "answer_D": "Améliorer la visualisation des données",
+    "correct_answer": "C"
+  },
+  {
+    "id": 30,
+    "question": "Quelle est la meilleure pratique pour gérer les valeurs manquantes dans un dataset?",
+    "answer_A": "Ignorer toutes les valeurs manquantes",
+    "answer_B": "Remplacer systématiquement par zéro",
+    "answer_C": "Analyser le contexte métier avant de décider de la méthode",
+    "answer_D": "Toujours supprimer les lignes avec des valeurs manquantes",
+    "correct_answer": "C"
+  },
+  {
+    "id": 31,
+    "question": "En quoi le concept de 'fraîcheur' des données est-il essentiel?",
+    "answer_A": "Pour maintenir un bon aspect visuel des données",
+    "answer_B": "Pour définir la fréquence des sauvegardes",
+    "answer_C": "Pour garantir que les décisions sont basées sur des données vraies",
+    "answer_D": "Pour réduire les coûts de stockage",
+    "correct_answer": "C"
+  },
+  {
+    "id": 32,
+    "question": "Qu'est-ce qu'une stratégie 'defensive coding' peut prévenir?",
+    "answer_A": "Les pertes de données massives",
+    "answer_B": "Les erreurs lors de l'exécution de jointures peu définies",
+    "answer_C": "L'augmentation des coûts de calcul",
+    "answer_D": "La prolifération des bases de données",
+    "correct_answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Pourquoi est-il crucial de standardiser les formats de données?",
+    "answer_A": "Pour réduire la taille des fichiers",
+    "answer_B": "Pour faciliter le traitement et l'intégration des données",
+    "answer_C": "Pour augmenter la variété des données",
+    "answer_D": "Pour éliminer la nécessité d'ETL",
+    "correct_answer": "B"
+  },
+  {
+    "id": 34,
+    "question": "Quel concept est illustré par l'analogie entre le nettoyage des données et le recyclage des déchets?",
+    "answer_A": "L'importance de la vitesse dans le nettoyage des données",
+    "answer_B": "Le besoin de logiciels sophistiqués pour le nettoyage des données",
+    "answer_C": "L'idée que ce qui est 'propre' pour un utilisateur peut être 'sale' pour un autre",
+    "answer_D": "La difficulté du nettoyage des données massives",
+    "correct_answer": "C"
+  },
+  {
+    "id": 35,
+    "question": "Qu'est-ce que le processus ETL en ingénierie des données?",
+    "answer_A": "Exporter, Trier et Lister",
+    "answer_B": "Extraire, Transformer et Charger",
+    "answer_C": "Évaluer, Tester et Lancer",
+    "answer_D": "Éditer, Traduire et Libérer",
+    "correct_answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "Quel langage de programmation est souvent employé pour le 'Data Wrangling' en ETL?",
+    "answer_A": "Java",
+    "answer_B": "C++",
+    "answer_C": "Python",
+    "answer_D": "Ruby",
+    "correct_answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "Quel outil exploite la parallélisation pour le traitement des Big Data dans les pipelines ETL?",
+    "answer_A": "Apache Hadoop",
+    "answer_B": "Tableau",
+    "answer_C": "PostgreSQL",
+    "answer_D": "Excel",
+    "correct_answer": "A"
+  },
+  {
+    "id": 38,
+    "question": "Qu'est-ce qui distingue principalement Spark des autres moteurs de traitement Big Data?",
+    "answer_A": "Son incapacité à traiter des données en temps réel",
+    "answer_B": "Sa rapidité grâce à l'in-memory computing",
+    "answer_C": "Sa dépendance stricte aux langages compilés",
+    "answer_D": "Son manque de soutien pour le streaming de données",
+    "correct_answer": "B"
+  },
+  {
+    "id": 39,
+    "question": "Quelle bibliothèque Python est couramment utilisée pour la manipulation aisée de données structurées dans le processus ETL?",
+    "answer_A": "NumPy",
+    "answer_B": "SciPy",
+    "answer_C": "BeautifulSoup",
+    "answer_D": "Pandas",
+    "correct_answer": "D"
+  },
+  {
+    "id": 40,
+    "question": "Quel est le rôle principal de Hadoop Distributed File System (HDFS) dans un environnement Hadoop?",
+    "answer_A": "Compresser les fichiers de données",
+    "answer_B": "Fournir un stockage distribué et résilient",
+    "answer_C": "Gestion des transactions ACID",
+    "answer_D": "Prédire les tendances des données",
+    "correct_answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "Quel module Spark est spécifique à l'analyse de données en flux continu?",
+    "answer_A": "Spark SQL",
+    "answer_B": "GraphX",
+    "answer_C": "Spark Streaming",
+    "answer_D": "MLlib",
+    "correct_answer": "C"
+  },
+  {
+    "id": 42,
+    "question": "Pourquoi utiliser Spark pour le traitement ETL sur des ensembles de données volumineux?",
+    "answer_A": "Parce qu'il repose sur une architecture monolithique",
+    "answer_B": "Parce qu'il offre des visualisations avancées par défaut",
+    "answer_C": "Pour sa capacité à traiter en mémoire et sa scalabilité",
+    "answer_D": "Pour ses fonctionnalités exclusivement basées sur SQL",
+    "correct_answer": "C"
+  },
+  {
+    "id": 43,
+    "question": "Quelle est une fonctionnalité clé de Hadoop MapReduce utilisée dans le traitement ETL?",
+    "answer_A": "Une interface graphique utilisateur intégrée",
+    "answer_B": "La gestion des transactions en temps réel",
+    "answer_C": "Le traitement distribué de grandes quantités de données",
+    "answer_D": "L'interconnexion de bases de données relationnelles",
+    "correct_answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "Quel avantage fournit PySpark pour les ingénieurs de données?",
+    "answer_A": "Il élimine le besoin d'écrire du code en Python",
+    "answer_B": "Il combine les fonctionnalités de Spark avec la simplicité de Python",
+    "answer_C": "Il remplace complètement Hadoop",
+    "answer_D": "Il est uniquement adapté aux analyses de données massives",
+    "correct_answer": "B"
+  },
+  {
+    "id": 45,
+    "question": "Quel est l'objectif principal de l'ingénierie des données?",
+    "answer_A": "Concevoir de nouveaux algorithmes",
+    "answer_B": "Améliorer l'accessibilité et la fiabilité des données",
+    "answer_C": "Remplacer les bases de données héritées",
+    "answer_D": "Créer des applications web",
+    "correct_answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "Parmi les choix suivants, quel est un exemple de données catégorielles?",
+    "answer_A": "Latitude et longitude",
+    "answer_B": "Nom d'une ville",
+    "answer_C": "Temps d'exécution d'un processus",
+    "answer_D": "Valeur boursière",
+    "correct_answer": "B"
+  },
+  {
+    "id": 47,
+    "question": "Quel est un exemple de variable continue parmi les choix suivants?",
+    "answer_A": "Couleur des yeux",
+    "answer_B": "Nombre de frères et sœurs",
+    "answer_C": "Température corporelle",
+    "answer_D": "Code postal",
+    "correct_answer": "C"
+  },
+  {
+    "id": 48,
+    "question": "Quel est un exemple de données discrètes parmi les choix suivants?",
+    "answer_A": "Taille d'une personne",
+    "answer_B": "Nombre de pages dans un livre",
+    "answer_C": "Durée d'un film",
+    "answer_D": "Poids d'un objet",
+    "correct_answer": "B"
+  },
+  {
+    "id": 49,
+    "question": "Qu'est-ce qu'un fichier journal (log file) typiquement utilisé pour?",
+    "answer_A": "Stocker des transactions financières",
+    "answer_B": "Enregistrer des événements et des activités système",
+    "answer_C": "Analyser des performances de marché",
+    "answer_D": "Planifier des tâches récurrentes",
+    "correct_answer": "B"
+  },
+  {
+    "id": 50,
+    "question": "Quelle technologie est principalement utilisée pour la 'Capture des changements de données' (CDC)?",
+    "answer_A": "Apache Beam",
+    "answer_B": "Debezium",
+    "answer_C": "Redis",
+    "answer_D": "TensorFlow",
+    "correct_answer": "B"
+  },
+  {
+    "id": 51,
+    "question": "Pourquoi est-il crucial de gérer correctement les dépendances dans un pipeline de données?",
+    "answer_A": "Pour accélérer le développement logiciel",
+    "answer_B": "Pour garantir que les tâches sont exécutées dans le bon ordre",
+    "answer_C": "Pour réduire les frais de licence",
+    "answer_D": "Pour augmenter la capacité de stockage",
+    "correct_answer": "B"
+  },
+  {
+    "id": 52,
+    "question": "Quel format de données est souvent associé aux échanges client-serveur et nécessite une validation stricte?",
+    "answer_A": "CSV",
+    "answer_B": "XML",
+    "answer_C": "JSON",
+    "answer_D": "Excel",
+    "correct_answer": "B"
+  },
+  {
+    "id": 53,
+    "question": "Quel est un défi majeur lors de l'utilisation des données non structurées dans des projets Big Data?",
+    "answer_A": "Elles sont toujours moins volumineuses que les données structurées",
+    "answer_B": "Elles sont généralement plus coûteuses à stocker",
+    "answer_C": "Elles nécessitent souvent des outils spécialisés pour être traitées",
+    "answer_D": "Elles n'existent pas en format numérique",
+    "correct_answer": "C"
+  },
+  {
+    "id": 54,
+    "question": "Quels sont les principaux types de données non structurées discutés dans le cours?",
+    "answer_A": "Texte, Base de données relationnelle, JSON",
+    "answer_B": "Image, Vidéo, Son",
+    "answer_C": "XML, HTML, CSV",
+    "answer_D": "Tableaux, Graphiques, Réseaux",
+    "correct_answer": "B"
+  },
+  {
+    "id": 55,
+    "question": "Quelle est la principale focalisation de l'ingénierie des données par rapport à la data science?",
+    "answer_A": "L'analyse statistique avancée",
+    "answer_B": "La création de modèles de machine learning",
+    "answer_C": "La construction et la maintenance de l'infrastructure de données",
+    "answer_D": "La visualisation des données",
+    "correct_answer": "C"
+  },
+  {
+    "id": 56,
+    "question": "Quel type de compétences est essentiel pour un ingénieur de données par opposition à un data scientist?",
+    "answer_A": "Compétences en analyse statistique",
+    "answer_B": "Compétences en gestion et optimisation des bases de données",
+    "answer_C": "Compétences en création de visualisations de données",
+    "answer_D": "Compétences en création de modèles prédictifs",
+    "correct_answer": "B"
+  },
+  {
+    "id": 57,
+    "question": "Dans quel domaine l'ingénieur de données collabore-t-il souvent avec le data scientist?",
+    "answer_A": "Pour optimiser les algorithmes de machine learning",
+    "answer_B": "Pour comprendre les besoins en matière de données et assurer l'accès aux données de bonne qualité",
+    "answer_C": "Pour développer des applications mobiles",
+    "answer_D": "Pour concevoir des campagnes de marketing numérique",
+    "correct_answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "Qu'est ce qui caractérise le 'data ninja' dans le monde du data engineering?",
+    "answer_A": "Une capacité d'apprentissage rapide et une adaptabilité aux situations",
+    "answer_B": "Une volonté de disséquer en profondeur les mécanismes de fonctionnement des systèmes",
+    "answer_C": "Une expertise en sécurité des données",
+    "answer_D": "Un ingénieur qui a de bonnes capacités d'optimisation des pipelines de données",
+    "correct_answer": "A"
+  },
+  {
+    "id": 59,
+    "question": "Quelle pourrait être une raison courante pour laquelle des données sont manquantes dans un système de gestion de données?",
+    "answer_A": "Une erreur humaine lors de la saisie des données",
+    "answer_B": "Une mise à jour automatique des données",
+    "answer_C": "La standardisation des formats de données par tous les utilisateurs",
+    "answer_D": "Un usage systématique de l'infrastructure en cloud",
+    "correct_answer": "A"
+  },
+  {
+    "id": 60,
+    "question": "Pourquoi une donnée pourrait-elle être considérée comme invalide dans une base de données?",
+    "answer_A": "Le champ de données a été rempli conformément au standard ISO 8601",
+    "answer_B": "Les données n'ont pas été converties correctement lors de leur importation",
+    "answer_C": "Les données répondent à toutes les contraintes de validation définies",
+    "answer_D": "Les données sont stockées dans un data lake plutôt que dans un data warehouse",
+    "correct_answer": "B"
+  },
+  {
+    "id": 61,
+    "question": "Quel est un cas d'utilisation typique pour Elasticsearch dans un environnement de données?",
+    "answer_A": "Stocker des images à haute résolution pour les sites Web",
+    "answer_B": "Effectuer des recherches en texte intégral et des analyses en temps réel sur des journaux de serveur",
+    "answer_C": "Gérer les transactions financières d'une banque",
+    "answer_D": "Analyser des données de capteurs en temps réel pour des systèmes IoT",
+    "correct_answer": "B"
+  },
+  {
+    "id": 62,
+    "question": "Quel est l'avantage principal de l'utilisation de l'Infrastructure as Code (IaC) dans la gestion des infrastructures informatiques?",
+    "answer_A": "Elle nécessite moins de matériel physique.",
+    "answer_B": "Elle permet une configuration manuelle des serveurs.",
+    "answer_C": "Elle assure une mise en place cohérente et reproductible des ressources.",
+    "answer_D": "Elle réduit le besoin en équipes de développement.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 63,
+    "question": "Quelle est la principale différence entre le 'block storage' et l''object storage' dans le cloud?",
+    "answer_A": "Le 'block storage' est mieux adapté aux données non structurées tandis que l''object storage' est conçu pour les bases de données transactionnelles.",
+    "answer_B": "Le 'block storage' stocke les données en paquets fixes, idéal pour les applications nécessitant un accès rapide, tandis que l''object storage' stocke les données sous forme d'objets avec métadonnées, idéal pour le stockage de gros volumes de données non structurées.",
+    "answer_C": "L'object storage offre une latence très faible comparée au 'block storage'.",
+    "answer_D": "Le 'block storage' est beaucoup moins évolutif que l'object storage.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 64,
+    "question": "Pourquoi est-il important de garantir l'idempotence dans les pipelines et workflows de données?",
+    "answer_A": "Pour s'assurer que chaque opération est exécutée une seule fois même en cas de ré-exécution",
+    "answer_B": "Pour augmenter la vitesse de traitement des données",
+    "answer_C": "Pour diminuer le coût de stockage dans le cloud",
+    "answer_D": "Pour permettre l'utilisation de n'importe quel type de données",
+    "correct_answer": "A"
+  },
+  {
+    "id": 65,
+    "question": "Quelle est une bonne pratique de nommage pour les colonnes d'un dataframe?",
+    "answer_A": "Utiliser des espaces entre les mots",
+    "answer_B": "Utiliser des underscores pour séparer les mots",
+    "answer_C": "Utiliser des caractères spéciaux",
+    "answer_D": "Utiliser des nombres uniquement",
+    "correct_answer": "B"
+  },
+  {
+    "id": 66,
+    "question": "Supposons que vous avez un dataframe représentant des informations sur les ventes avec des colonnes mal nommées. Quel pourrait être un bon exemple de re-nommage pour améliorer la clarté?",
+    "answer_A": "Customer#1, SalesAmount$, Date*",
+    "answer_B": "c1, s_a, d",
+    "answer_C": "Nom_Client, Montant_Vente, Date_Achat",
+    "answer_D": "NC, MV, DA",
+    "correct_answer": "C"
+  },
+  {
+    "id": 67,
+    "question": "Qu'est-ce que CommonCrawl?",
+    "answer_A": "Un outil pour analyser les performances des requêtes SQL",
+    "answer_B": "Un format de données pour structurer les bases de données relationnelles",
+    "answer_C": "Un référentiel ouvert et gratuit de données collectées sur le web",
+    "answer_D": "Un langage de programmation pour le traitement des données non structurées",
+    "correct_answer": "C"
+  },
+  {
+    "id": 68,
+    "question": "Laquelle de ces bibliothèques n'est pas incluse dans Apache Spark?",
+    "answer_A": "Spark SQL",
+    "answer_B": "GraphX",
+    "answer_C": "HBase",
+    "answer_D": "MLlib",
+    "correct_answer": "C"
+  },
+  {
+    "id": 69,
+    "question": "Quel est le lien principal entre HTML et XML?",
+    "answer_A": "HTML et XML sont tous deux utilisés pour la mise en page graphique de documents",
+    "answer_B": "HTML et XML sont des langages de balisage qui structurent et définissent le contenu des documents",
+    "answer_C": "HTML est utilisé exclusivement pour les bases de données, tandis que XML est utilisé pour les sites Web",
+    "answer_D": "HTML et XML utilisent les mêmes balises pour décrire les données",
+    "correct_answer": "B"
+  },
+  {
+    "id": 70,
+    "question": "Quel format non ambigü est recommandé pour assurer une standardisation des dates?",
+    "answer_A": "DD-MM-YYYY",
+    "answer_B": "MM-DD-YYYY",
+    "answer_C": "YY-MM-DD",
+    "answer_D": "YYYY-MM-DD",
+    "correct_answer": "D"
+  }
+]
